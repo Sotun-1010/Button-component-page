@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.aside {
+    background-color: #FAFBFD;
+}
+
+/* logo */
+.logo {
+    margin-bottom: 122px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #090F31;
+    font-family: 'Poppins', sans-serif
+}
+
+.logo #red {
+    color: #F7542E;
+}
+
+/* nav links */
+.navbar .nav-links li {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.navbar .nav-links li a {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* input link */
+#input {
+    font-weight: 700;
+    color: #090F31 !important;
+}
+
+#h3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif
+}
+
+/* main section */
+.main {
+    padding-top: 53px;
+    padding-left: 91px;
+}
+
+
+/* code */
+.code {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px; 
+    font-weight: 400; 
+}
+
+.left-btn button, .right-btn button {
+    font-size: 14px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+}
+
+/* group 1 */
+.group-1 {
+    gap: 10rem;
+}
+
+/* group 1 buttons */
+.group-1 .left-btn button {
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+} 
+
+.group-1 .right-btn button {
+    background-color: #AEAEAE;
+    color: #3F3F3F;
+}
+
+/* group 2 */
+.group-2 {
+    gap: 4.1rem;
+}
+
+.group-2 .left-btn button {
+    color: #3D5AFE;
+}
+
+.group-2 .right-btn button {
+    color: #3D5AFE;
+    background-color: rgba(41, 98, 255, 0.1);
+}
+
+/* group 3 */
+.group-3 {
+    gap: 5.2rem;
+}
+
+.group-3 .right-btn button {
+    background-color: rgba(41, 98, 255, 0.1);
+    color: #3D5AFE;
+}
+
+/* group 4 */
+.group-4 .left-btn button {
+    background-color: #3D5AFE;
+}
+
+/* group 5 */
+.group-5 {
+    gap: 7.3rem;
+}
+
+.group-5 .left-btn button {
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+
+.group-5 .right-btn button {
+    color: #9E9E9E;
+}
+
+/* group 6 */
+.group-6 {
+    gap: 4rem;
+}
+
+.group-6 .left-btn button {
+    background-color: #2962FF;
+}
+
+.group-6 .right-btn button {
+    background-color: #2962FF;
+}
+
+/* group 7 */
+.group-7 {
+    gap: 5rem;
+}
+
+.group-7 .left-btn button {
+    background-color: #2962FF;
+}
+
+.group-7 .middle-btn button {
+    background-color: #2962FF;
+}
+
+.group-7 .right-btn button {
+    background-color: #2962FF;
+}
+
+/* group 8 */
+.group-8 {
+    gap: 2.8rem;
+}
+
+.group-8 .left-btn button {
+    background-color: #E0E0E0;
+    color:#3F3F3F;
+}
+
+.group-8 .left-middle-btn button {
+    background-color: #2962FF;
+}
+
+.group-8 .right-middle-btn button {
+    background-color: #455A64;
+}
+
+.group-8 .right-btn button {
+    background-color: #D32F2F;
+}
+
+/* group 9 */
+.group-9 {
+    gap: 5.1rem;
+}
+
+.group-9 .left-btn button {
+    background-color: #AEAEAE;
+    color: #3F3F3F;
+}
+
+.group-9 .left-middle-btn button {
+    background-color: #0039CB;
+    margin-top: 31px;
+}
+
+.group-9 .right-middle-btn button {
+    background-color: #1C313A;
+    margin-top: 31px;
+}
+
+.group-9 .right-btn button {
+    background-color: #9A0007;
+    margin-top: 31px;
+}
